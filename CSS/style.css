@@ -1,0 +1,105 @@
+/* colors
+charcoal: #1f1f1f
+White: #fffbf0
+yellow: #fff276
+Green: #899D33
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1f1f;
+  font-family: Cormorant Garamon, Ralway;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fffbf0;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+a {
+    color: #fffbf0;
+}
+
+a:Hover {
+    color: #fff276;
+}
+
+.button.contact {
+  background-color: #899D33;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.contact:hover {
+  color: #1f1f1f;
+}
+
+.button.resume {
+  background-color: #899D33;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.resume:hover {
+  color: #1f1f1f;
+}
+
+.button.Habitualize {
+  background-color: #899D33;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.Habitualize:hover {
+  color: #1f1f1f;
+}
+
+.button.Flowcabulary {
+  background-color: #899D33;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.Flowcabulary:hover {
+  color: #1f1f1f;
+}
