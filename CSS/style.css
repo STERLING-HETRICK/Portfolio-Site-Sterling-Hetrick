@@ -143,20 +143,8 @@ header {
 
 
 .row {
-    margin: 25px;
-    position: relative;
-}
-
-.Column1 {
-  Position: absolute;
-  left: 200px;
-  max-width: 200px;
-}
-
-.Column2 {
-  Position: absolute;
-  right: 200px;
-  max-width: 200px;
+  text-align:center;
+  margin: 25px 0;
 }
 
 main {
