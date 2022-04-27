@@ -8,67 +8,80 @@
 </head>
 <body>
   <header>
-    <div>
-      <img src="Images/General/My-Website-Logo.png" >
-    </div>
-    <div>
-      <nav>
-        <li><a href="index.html">Work</a></li>
-        <li><a href="About Sterling Hetrick.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </nav>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <picture><img src="Images/General/My-Website-Logo.png" ></picture>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="About Sterling Hetrick.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
-  <div>
-    <div>
-      <h1>Hi, I'm Sterling.<br>A UX Designer based in Atlanta.</h1>
-      <p> I'm passionate about improving designs. Not only making them more intuitive, but also more; comprehensive, useful, and effiecent.</p>
-    </div>
-  </div>
-
-  <div>
-    <div>
-      <h2>My Work</h2>
+    <div class="container">
       <div>
-
         <div>
+          <h1>Hi, I'm Sterling.<br>A UX Designer based in Atlanta.</h1>
+          <p> I'm passionate about improving designs. Not only making them more intuitive, but also more; comprehensive, useful, and effiecent.</p>
+        </div>
+      </div>
+
+      <div id="Works">
+        <div>
+          <h2>My Work</h2>
           <div>
-              <picture><img src="Images/Habitualize/Habitualize Finished Home Page.png" width="400x100"></picture>
-          </div>
-          <div>
-            <h3>Habitualize</h3>
-            <p>A habit tracking app that not only allows you to track good habits to increase but also bad habits to decrease.</p>
-            <a href="Habitualize.html" class="button Habitualize">View Case Study</a>
+
+            <div class="row">
+    					<div class="Column1">
+                <div>
+                  <picture><img src="Images/Habitualize/Habitualize Finished Home Page.png" height="400"></picture>
+                </div>
+                <div>
+                  <h3>Habitualize</h3>
+                  <p>A habit tracking app that not only allows you to track good habits to increase but also bad habits to decrease.</p>
+                  <a href="Habitualize.html" class="button Habitualize">View Case Study</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+    					<div class="Column2">
+                <div>
+                  <picture><img src="Images/Flowcabulary/Flowcabulary Home page.png" height="400"></picture>
+                </div>
+                <div>
+                  <h3>Flowcabulary</h3>
+                  <p>A flashcard app that allows you to create your own custom flashcards with an option to use images.</p>
+                  <a href="#" class="button Flowcabulary">View Case Study</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-
-        <div>
-          <div>
-            <picture><img src="Images/Flowcabulary/Flowcabulary Home page.png" width="400x100"></picture>
-          </div>
-          <div>
-            <h3>Flowcabulary</h3>
-            <p>A flashcard app that allows you to create your own custom flashcards with an option to use images.</p>
-            <a href="#" class="button Flowcabulary">View Case Study</a>
-          </div>
-        </div>
-
       </div>
     </div>
-  </div>
-</main>
+  </main>
   <footer>
-    <div>
-      <h2>Get in Touch</h2>
-      <p>Like what you see? Call or text me at <a href="tel:0123456789">0123456789</a> Rather email me?</p>
-      <div>
-        <a href="mailto:google@gmail.com" class="button contact">Email Me</a>
+    <div id="contact">
+      <div class="container">
+        <div>
+          <h2>Get in Touch</h2>
+          <p>Like what you see? Call or text me at <a href="tel:0123456789">0123456789</a> Rather email me?</p>
+          <div>
+            <a href="mailto:google@gmail.com" class="button contact">Email Me</a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/sterling-hetrick-3ab410235/"><img src="Images/General/linkedin_logo.png" width="40x40"></a>
+          </div>
+        </div>
+        <p>COPYRIGHT &copy; <script>document.write(new Date().getFullYear());</script>, STERLING-HETRICK</p>
       </div>
-      <div>
-        <a href="https://www.linkedin.com/in/sterling-hetrick-3ab410235/"><img src="Images/General/linkedin_logo.png" width="40x40"></a>
-      </div>
-      <p>COPYRIGHT STERLING-HETRICK 2021</p>
     </div>
   </footer>
 </body>
