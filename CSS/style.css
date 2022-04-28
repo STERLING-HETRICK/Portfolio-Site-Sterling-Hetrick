@@ -174,8 +174,6 @@ body {
 
 .row {
     margin: 25px 0;
-    padding-left: 250px;
-    padding-right: 150px;
 }
 
 .row::after {
