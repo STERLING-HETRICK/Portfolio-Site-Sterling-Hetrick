@@ -3,6 +3,7 @@ charcoal: #1f1f1f
 White: #fffbf0
 yellow: #fff276
 Green: #899D33
+Dark Green: #004900
 */
 * {
   box-sizing: border-box;
@@ -59,6 +60,7 @@ a:Hover {
 
 .button.contact:hover {
   color: #1f1f1f;
+  background-color: #004900;
 }
 
 .button.resume {
@@ -74,6 +76,7 @@ a:Hover {
 
 .button.resume:hover {
   color: #1f1f1f;
+  background-color: #004900;
 }
 
 .button.Habitualize {
@@ -89,6 +92,7 @@ a:Hover {
 
 .button.Habitualize:hover {
   color: #1f1f1f;
+  background-color: #004900;
 }
 
 .button.Flowcabulary {
@@ -104,6 +108,7 @@ a:Hover {
 
 .button.Flowcabulary:hover {
   color: #1f1f1f;
+  background-color: #004900;
 }
 
 #contact {
@@ -141,18 +146,157 @@ header {
   text-align: center;
 }
 
-
-.row {
-  text-align:center;
-  margin: 25px 0;
-}
-
 main {
   padding: 150px 0px;
 }
 
 body {
   position: relative;
-  padding bottom: 200px;
+  padding bottom: 100px;
   min height: 100%;
 }
+
+#hero h2 {
+  padding-top: 50px;
+}
+
+#hero {
+  text-align: center;
+}
+
+#Habitualize h2 {
+  padding-top: 50px;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.row {
+    margin: 25px 0;
+    padding-left: 250px;
+    padding-right: 150px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.col-lg-5 {
+  padding-top: 100px;
+}
+
+nav {
+  font-size: 30px;
+}
+
+.animation-box {
+  padding-top: 40px;
+}
+
+.animation {
+  padding: 40px;
+  transition-property: background, transform;
+  transition-duration: 2000ms;
+}
+
+.animation:hover {
+  transform: rotate(360deg);
+  background-color: #004900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 641px) {
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+
+    nav > ul {
+        margin: 1em 0;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+        display: none;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    #about h3 {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col-md-7 {
+        width: 60%;
+    }
+
+    .col-md-5 {
+        width: 40%;
+    }
