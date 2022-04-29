@@ -298,3 +298,31 @@ nav {
     .col-md-5 {
         width: 40%;
     }
+
+    @media only screen and (min-width: 641px) {
+        header {
+            text-align: unset;
+            padding: 20px 0 13px;
+        }
+
+        nav {
+            width: auto;
+            float: right;
+            margin-top: 4px;
+        }
+
+        nav > ul {
+            margin: 1em 0;
+        }
+
+        nav > ul > li {
+            display: inline-block;
+        }
+
+        .navtoggle li:not(:last-child) {
+            display: inline-block;
+        }
+
+        .navtoggle li:last-child {
+            display: none;
+        }
