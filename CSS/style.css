@@ -115,18 +115,6 @@ a:Hover {
   text-align: center;
 }
 
-nav {
-  display: inline-block;
-  width: auto;
-  float: right;
-}
-
-nav>ul>li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 0;
-}
-
 header {
   background-color: #899D33;
   padding: 20px;
@@ -191,10 +179,6 @@ body {
   padding-top: 100px;
 }
 
-nav {
-  font-size: 30px;
-}
-
 .animation-box {
   padding-top: 40px;
 }
@@ -218,12 +202,79 @@ nav {
 
 
 
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: inherit;
+    color: #1f1f1f;
+}
 
+nav > ul > li > a:visited {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: inherit;
+    color: #1f1f1f;
+}
 
+nav > ul > li > a:hover {
+    padding: 0 15px;
+    text-transform: uppercase;
+    background-color: #1f1f1f;
+    color: #fffbf0;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #fffbf0;
+    transition: 0.2s opacity;
+}
 
+nav > ul > li > a:active {
+    padding: 0 15px;
+    text-transform: uppercase;
+    background-color: #fffbf0;
+    color: #1f1f1f;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #1f1f1f;
+    transition: 0.2s opacity;
+}
 
+.navtoggle li:not(:last-child) {
+    display: none;
+    padding: 0 0 10px;
+}
 
+.navtoggle,
+.navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 30px;
+    padding-right: 0.3em;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid #fffbf0;
+}
 
 
 
@@ -284,6 +335,7 @@ nav {
     }
 }
 
+
 @media only screen and (min-width: 1024px) {
     .container {
         max-width: 1200px;
@@ -298,31 +350,3 @@ nav {
     .col-md-5 {
         width: 40%;
     }
-
-    @media only screen and (min-width: 641px) {
-        header {
-            text-align: unset;
-            padding: 20px 0 13px;
-        }
-
-        nav {
-            width: auto;
-            float: right;
-            margin-top: 4px;
-        }
-
-        nav > ul {
-            margin: 1em 0;
-        }
-
-        nav > ul > li {
-            display: inline-block;
-        }
-
-        .navtoggle li:not(:last-child) {
-            display: inline-block;
-        }
-
-        .navtoggle li:last-child {
-            display: none;
-        }
