@@ -1,8 +1,9 @@
 /* colors
 charcoal: #1f1f1f
+Black: #000000
 White: #fffbf0
 yellow: #fff276
-Green: #899D33
+Green: #8A9E33
 Dark Green: #004900
 */
 * {
@@ -47,26 +48,14 @@ a:Hover {
     color: #fff276;
 }
 
-.button.contact {
-  background-color: #899D33;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.button.contact:hover {
-  color: #1f1f1f;
-  background-color: #004900;
+.space {
+  padding: 20px;
 }
 
 .button.resume {
-  background-color: #899D33;
+  background-color: #8A9E33;
   border: none;
-  color: white;
+  color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -75,14 +64,14 @@ a:Hover {
 }
 
 .button.resume:hover {
-  color: #1f1f1f;
+  color: #fffbf0;
   background-color: #004900;
 }
 
 .button.Habitualize {
-  background-color: #899D33;
+  background-color: #8A9E33;
   border: none;
-  color: white;
+  color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -91,14 +80,14 @@ a:Hover {
 }
 
 .button.Habitualize:hover {
-  color: #1f1f1f;
+  color: #fffbf0;
   background-color: #004900;
 }
 
 .button.Flowcabulary {
-  background-color: #899D33;
+  background-color: #8A9E33;
   border: none;
-  color: white;
+  color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -107,7 +96,7 @@ a:Hover {
 }
 
 .button.Flowcabulary:hover {
-  color: #1f1f1f;
+  color: #fffbf0;
   background-color: #004900;
 }
 
@@ -116,7 +105,7 @@ a:Hover {
 }
 
 header {
-  background-color: #899D33;
+  background-color: #8A9E33;
   padding: 20px;
   position: fixed;
   top: 0px;
@@ -194,14 +183,6 @@ body {
   background-color: #004900;
 }
 
-
-
-
-
-
-
-
-
 nav > ul {
     list-style-type: none;
     padding: 0;
@@ -276,28 +257,6 @@ nav > ul > li > a:active {
     border-top: 1px solid #fffbf0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 641px) {
     header {
         text-align: unset;
@@ -350,3 +309,11 @@ nav > ul > li > a:active {
     .col-md-5 {
         width: 40%;
     }
+
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    width: 250px;
+    height: auto;
+  }
+}
