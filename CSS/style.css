@@ -95,6 +95,10 @@ a:Hover {
   font-size: 16px;
 }
 
+#comparison {
+  display:flex;
+}
+
 .button.Flowcabulary:hover {
   color: #fffbf0;
   background-color: #004900;
